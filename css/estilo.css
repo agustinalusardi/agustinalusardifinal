@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@100&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+body{
+	background-image:url(fondonuevo.jpg);
+	background-color:#876fa8; 
+	font-family: 'Roboto', sans-serif;
+}
+
+main{
+	width: 90%;
+	height: 700px;
+	margin-left: auto;
+	margin-right: auto; 
+}
+
+#fondo1{
+	background-image: url(../img/fondonuevo.jpg);
+	background-color:#876fa8;
+
+}
+
+#fondo2 {
+	background-color:#0662ad;
+}
+
+#fondo3{
+		background-image: url(../img/fondotres.jpg);
+		background-color:#876fa8; 
+	
+}
+
+header{
+	width: 100%;
+	height: 150px;
+	background-color:#876fa8;
+	opacity: 0.8;
+	font-family: 'Roboto', sans-serif;
+	padding: 2%;
+}
+
+nav{
+	display: inline;
+	padding: 0;
+	}
+
+section{
+	width: 100%;
+	height: 500px;
+	background-image: url(../img/foto.jpg);
+}
+
+footer{
+	width: 100%;
+	height: 50px;
+
+}
+
+.galeria{
+	padding: 2%;
+	margin-left: 11%;
+}
+
+#area1{
+	width: 25%;
+	height: 400px;
+	background-color:#0662ad;
+	float: left;
+	margin-top: 50px;
+	margin-left: 60px;
+}
+textarea{
+	margin: 0px;
+    width: 296px;
+    height: 73px;
+}
+
+#area1original{
+	width: 25%;
+	height: 170px;
+	background-color:#64c0f2;
+	color:#ffffff;
+	float: right;
+	margin-top: 10%;
+	margin-right: 4%;
+}
+
+
+#area11{
+	width: 50%;
+	height: 500px;
+	float: left;
+}
+
+#area111{
+	width: 50%;
+	height: 500px;
+	float: right;
+}
+
+
+#area22{
+	width:20%;
+	height: 140px;
+	background-color:#0662ad;
+	float: right;
+	margin-top: 3.5%;
+	margin-right:3.5%;
+
+
+}
+
+label{
+	font-family: 'Open Sans', sans-serif;
+	color: #ade7ff;
+}
+
+#textofooter1{
+	width: 33%;
+	height: 50px;
+	color: #ffffff;
+	background-color:#000000;
+	opacity: 0.5;
+
+
+	float: right;
+	display: inline;
+}
+
+#textofooter2{
+	width: 33%;
+	height: 50px;
+	color: #ffffff;
+	background-color:#000000;
+	opacity: 0.5;
+
+
+	float: left;
+}
+
+#textofooter3{
+	width: 34%;
+	height: 50px;
+	color: #ffffff;
+	background-color:#000000;
+	opacity: 0.5;
+
+	float: right;
+}
+
+#menu {
+ padding: 0;
+ margin-left:72.5%;
+ margin-top: -4%;
+ 
+ }
+
+#menu li {
+ display: inline-block;
+ padding:1.5%;
+
+ }
+#menu li a {
+ font-size: 20px;
+ text-align: center;
+ text-decoration: none;
+ float: left;
+ margin-right: 3%;
+ padding: 15px;
+ color:#ffffff;
+ background-color:#0662ad;
+ }
+
+ .ancho{
+ 	width: 50%;
+
+ }
+
+ .pregunta{
+ 	width: 80%;
+ 	height: 50px;
+ }
+
+ .enviar{
+ 	width: 50%;
+ 	height: 50px;
+ 	color: #ffffff;
+ 	background-color: #ade7ff;
+ 	font-size: 20px;
+ }
+
+ form{
+ 	padding: 2%;
+ 	margin: 5%;
+ }
+
+ .textoblack{
+ 	width: 31%;
+ 	display: inline;
+ 	margin-left:9%;
+ 	margin-top:-2px;
+
+ }
+
+ .iconos{
+ 	width: 7%;
+ 	display: inline;
+ 	margin-left:17%;
+ 	margin-top:6px;
+
+}
+
+
+ p {
+ 	color: #ffffff;
+ 	font: Open Sans;
+ 	padding: 2%;
+    margin-top: 4px;
+
+}
+
+#minombre{
+	margin-left:49%;
+}
+
+
+ h1{
+ 	color: #ffffff;
+ 	font-size: 40px;
+ 	font-family: 'Roboto', sans-serif;
+ 	font-style: normal;
+ 	margin-left: 1%;
+
+ }
+
+ h3{
+ 	color: #ffffff;
+ 	font-family: 'Roboto', sans-serif;
+ 	font-size: 20px;
+ 	font-style: thin;
+ 	padding-left: 50px;
+ }
+
+ .subtitulos{
+ 	font-family: 'Roboto', sans-serif;
+ 	font-size: 30px;
+ 	padding: 3%;
+ }
+
+
+ .subtitulos3{	font-family: 'Roboto', sans-serif;
+ 	font-size: 30px;
+ 	padding: 3%;
+ 	color: #ffffff;
+ }
+
+ #triviaformulario{
+ 	margin-top: 20px;
+ 	margin-left: 30px;
+ 	font-family: 'Roboto', sans-serif;
+ 	font-size: 30px;
+ }
+
+
+ .nombre{
+	float: right;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+
+}
+
+.texto{
+	color: #ffffff;
+	font-size: 25px;
+	padding: 3%;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+	margin-top: 10%;
+}
+
+a {
+    text-decoration:none;
+}
+
+
+.imagen{
+	width: 33%;
+	margin-left: 30%;
+	margin-top: -30px;
+}
+
+.info{
+	color:#ffffff;
+	margin-top: 34px;
+	margin-left: 30px;
+	font-size: 17px;
+	
+}
+
+.personajes{
+    margin-left: 12%;
+    margin-top: 28px;
+    width: 83%;
+}
